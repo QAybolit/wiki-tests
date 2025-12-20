@@ -49,3 +49,17 @@ tasks.withType(Test).configureEach {
         exceptionFormat "full"
     }
 }
+
+tasks.register("local-test", Test) {
+
+    useJUnitPlatform {
+        includeTags("local")
+    }
+}
+
+tasks.register("remote-test", Test) {
+
+    useJUnitPlatform {
+        includeTags("remote")
+    }
+}
