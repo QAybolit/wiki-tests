@@ -10,15 +10,15 @@
 
 * [Запуск из терминала](#computer-запуск-из-терминала)
 
-* [Сборка в Jenkins](#img-width25-altjenkins-srcmediaiconsjenkinssvg-сборка-в-jenkins)
+* [Сборка в Jenkins](#-сборка-в-jenkins)
 
-* [Allure отчет](#img-width25-altallure-srcmediaiconsalluresvg-allure-отчет)
+* [Allure отчет](#-allure-отчет)
 
-* [Интеграция с Allure TestOps](#img-width25-altalluretestops-srcmediaiconsallure_tosvg-интеграция-с-allure-testops)
+* [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
 
-* [Уведомление в Telegram при помощи бота](#img-width25-alttelegram-srcmediaiconstelegramsvg-уведомление-в-telegram-при-помощи-бота)
+* [Уведомление в Telegram при помощи бота](#-уведомление-в-telegram-при-помощи-бота)
 
-* [Примеры видео выполнения тестов на Selenoid](#img-width25-altselenoid-srcmediaiconsselenoidsvg-примеры-видео-выполнения-тестов-на-selenoid)  
+* [Примеры видео выполнения тестов на Selenoid](#-примеры-видео-выполнения-тестов-на-selenoid)  
   <br>
 
 
@@ -120,6 +120,6 @@
 
 
 ---
-## <img width="25" alt="Selenoid" src="media/icons/Selenoid.svg"> Примеры видео выполнения мобильных тестов на Selenoid:
+## <img width="25" alt="Selenoid" src="media/icons/Selenoid.svg"> Примеры видео выполнения тестов на Selenoid:
 
 <img alt="BrowserStack video" src="media/gifs/wiki-selenoid.gif"> 
