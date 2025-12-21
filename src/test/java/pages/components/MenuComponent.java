@@ -7,15 +7,9 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class MenuComponent {
 
-    private final SelenideElement mainPageLink = $("#n-mainpage-description");
     private final SelenideElement contentsPageLink = $("#n-content");
     private final SelenideElement selectedArticlesPageLink = $("#n-featured");
     private final SelenideElement currentEventsPageLink = $("#n-currentevents");
-
-    @Step("Нажать на кнопку 'Заглавная страница'")
-    public void goToMainPage() {
-        this.mainPageLink.click();
-    }
 
     @Step("Нажать на кнопку 'Содержание'")
     public void goToContentsPage() {
