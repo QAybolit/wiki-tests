@@ -28,6 +28,6 @@ public interface ProjectConfig extends Config {
     @Key("timeout")
     long timeout();
 
-    @Key("remote.url")
+    @Key("remoteUrl")
     String remoteUrl();
 }
