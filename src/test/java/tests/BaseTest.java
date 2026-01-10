@@ -20,7 +20,7 @@ public class BaseTest {
     private static final ProjectConfig projectConfig = ConfigFactory.create(ProjectConfig.class);
 
     @BeforeAll
-    public static void setUp() {
+    public static void setupSelenideConfig() {
         Configuration.baseUrl = projectConfig.baseUrl();
         Configuration.pageLoadStrategy = projectConfig.pageLoadStrategy();
         Configuration.timeout = projectConfig.timeout();
@@ -46,6 +46,7 @@ public class BaseTest {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.addVideo();
+        Attach.browserConsoleLogs();
         closeWebDriver();
     }
 }

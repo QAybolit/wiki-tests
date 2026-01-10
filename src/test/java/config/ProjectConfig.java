@@ -10,19 +10,19 @@ import org.aeonbits.owner.Config;
 })
 public interface ProjectConfig extends Config {
 
-    @Key("base.url")
+    @Key("baseUrl")
     String baseUrl();
 
     @Key("browser")
     String browser();
 
-    @Key("browser.version")
+    @Key("browserVersion")
     String browserVersion();
 
-    @Key("browser.size")
+    @Key("browserSize")
     String browserSize();
 
-    @Key("page.load.strategy")
+    @Key("pageLoadStrategy")
     String pageLoadStrategy();
 
     @Key("timeout")

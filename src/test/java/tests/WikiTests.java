@@ -23,7 +23,7 @@ public class WikiTests extends BaseTest {
     @CsvSource(value = {
             "Go, golang",
             "Java, Sun Microsystems",
-            "C++, Embarcadero"
+            "Rust, ржавчина"
     })
     @DisplayName("Поиск статей по теме: ")
     @Story("Поиск статей на Wikipedia")
